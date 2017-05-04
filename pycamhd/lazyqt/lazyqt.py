@@ -39,5 +39,5 @@ class LazyQtAccessor:
 
 
 
-def repo( url ):
-    return LazyQtAccessor( url )
+def repo( url = 'https://rawdata.oceanobservatories.org/files/' ):
+    return LazyQtAccessor( url  )

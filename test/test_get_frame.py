@@ -32,7 +32,7 @@ def test_get_frame_image():
 
 ## Test with object-oriented version
 def test_get_frame_np():
-    r = camhd.repo( ci_repo )
+    r = camhd.repo( )
     img = r.get_frame( filename, 5000 )
 
     assert isinstance( img, np.ndarray )
