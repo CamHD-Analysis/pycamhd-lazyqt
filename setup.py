@@ -18,7 +18,7 @@ def find_version(*file_paths):
 
 version = find_version('pycamhd', 'lazyqt', '__init__.py')
 
-setup(name='pycamhd.lazyqt',
+setup(name='pycamhd-lazyqt',
       version=version,
       description='Module for retrieving CamHD data using the LazyQuicktime (lazyqt) package',
       long_description='README.md',
